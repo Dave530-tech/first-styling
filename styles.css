@@ -1,0 +1,76 @@
+.topnav {
+    background-color: black;
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    margin: 1cm;
+    
+
+}
+    .topnav a{
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    justify-content: center;
+    float: left;
+
+    }
+
+    .topnav a:hover{
+        background-color: black;
+        color: aqua;
+        transition-duration: 0.5s;
+    }
+
+    .form{
+        background-color: aqua;
+        width: 12cm;
+        padding: 10px 20px;
+        border-radius: 10px;
+        justify-content: space-around;
+        
+    }
+    
+    label{
+        width: 140px;
+        display: inline-block;
+        margin: 0.2cm;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    input{
+        padding: 4px;
+        margin: 5px;
+        font-size: 16px;
+        border-radius: 10px;
+        border: 1px solid;
+        width: 7cm;
+    }
+
+    button{
+        padding: 4px;
+        margin: 5px;
+        font-size: 16px;
+        border-radius: 10px;
+        border: 1px solid;
+        width: 7cm;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    button:hover{
+        background-color: black;
+        color: blueviolet;
+    }
+    
+
+    h2{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
