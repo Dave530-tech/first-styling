@@ -1,3 +1,19 @@
-
-    
+.navbar{
+    background-color: black;
+    overflow: hidden;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+    .navbar a{
+        color: blue;
+        text-decoration: none;
+        text-align: center;
+        font-size: 15px;
+        float: left;
+        justify-content: center;
+    }
+    .navbar a:hover{
+        
+    }
 
